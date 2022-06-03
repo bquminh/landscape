@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "852591607365",
+    "firebase_url": "https://landscapedemo-a4099-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "landscapedemo-a4099",
+    "storage_bucket": "landscapedemo-a4099.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852591607365:android:c57a9200c2d5965024ad2c",
+        "android_client_info": {
+          "package_name": "com.example.landscapedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852591607365-n4afhjk1unc0opev569kvrr2dliqeln8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByB2wlcmX11rS0XsIMhtFAdXrR2EOUXCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852591607365-n4afhjk1unc0opev569kvrr2dliqeln8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

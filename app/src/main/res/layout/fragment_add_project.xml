@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bg_plan"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_name"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etProjectname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:minHeight="48dp"
+        android:textColor="@color/text_color" />
+    <TextView
+        android:id="@+id/iv_waring_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_warning"
+        android:visibility="gone"
+        android:textColor="@color/red"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="end"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:minHeight="48dp"
+        android:textColor="@color/text_color" />
+    <TextView
+        android:id="@+id/tv_warning_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_warning"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="end"
+        />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/project_owner"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etOwner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/text_color" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/admin"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etAdmin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/text_color" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_date"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:minHeight="48dp"
+        android:textColor="@color/text_color" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/end_date"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:minHeight="48dp"
+        android:textColor="@color/text_color" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/third"
+        android:textColor="@color/text_color"
+        android:text="@string/create_project"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+</LinearLayout>

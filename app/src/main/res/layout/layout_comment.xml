@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_border"
+    android:padding="7dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/ivAvaCmt"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/travel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvProfilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Profile name"
+        app:layout_constraintStart_toEndOf="@id/ivAvaCmt"
+        app:layout_constraintTop_toTopOf="@id/ivAvaCmt"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCreatedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="26/08/2000 0h30"
+        android:textColor="#6A6A6A"
+        app:layout_constraintStart_toEndOf="@id/tvProfilename"
+        app:layout_constraintTop_toTopOf="@id/tvProfilename"
+        app:layout_constraintBottom_toBottomOf="@id/tvProfilename"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="comment"
+        app:layout_constraintStart_toStartOf="@id/tvProfilename"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvProfilename"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/btClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

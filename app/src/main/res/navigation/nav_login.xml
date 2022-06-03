@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_login"
+    app:startDestination="@id/fragment_login">
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.example.landscapedemo.ui.FragmentLogin"
+        android:label="fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login_to_fragmentResetPassword"
+            app:destination="@id/fragmentResetPassword" />
+        <action
+            android:id="@+id/action_fragment_login_to_fragmentCreateAccount"
+            app:destination="@id/fragmentCreateAccount" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentResetPassword"
+        android:name="com.example.landscapedemo.ui.FragmentResetPassword"
+        android:label="FragmentResetPassword" >
+        <action
+            android:id="@+id/action_fragmentResetPassword_to_fragmentCreateNewPassword"
+            app:destination="@id/fragmentCreateNewPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCreateNewPassword"
+        android:name="com.example.landscapedemo.ui.FragmentCreateNewPassword"
+        android:label="FragmentCreateNewPassword" >
+        <action
+            android:id="@+id/action_fragmentCreateNewPassword_to_fragment_login"
+            app:destination="@id/fragment_login" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCreateAccount"
+        android:name="com.example.landscapedemo.ui.FragmentCreateAccount"
+        android:label="FragmentCreateAccount" />
+</navigation>

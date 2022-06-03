@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_projects"
+    app:startDestination="@id/fragment_projects">
+
+    <fragment
+        android:id="@+id/fragment_projects"
+        android:name="com.example.landscapedemo.ui.FragmentProjects"
+        android:label="fragment_projects" >
+        <action
+            android:id="@+id/add_project"
+            app:destination="@id/fragment_add_project" />
+        <action
+            android:id="@+id/action_fragment_projects_to_fragment_project_Detail"
+            app:destination="@id/fragment_project_detail" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragment_add_project"
+        android:name="com.example.landscapedemo.ui.FragmentAddProject"
+        android:label="fragment_add_project" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_project_detail"
+        android:name="com.example.landscapedemo.ui.FragmentProjectDetail"
+        android:label="fragment_project_detail" >
+
+        <argument
+            android:name="projectId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

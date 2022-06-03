@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@id/tvGroupTaskid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/etGroupTaskname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Group Task name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvGroupTaskid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member created:"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etGroupTaskname"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivAva"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintStart_toEndOf="@id/tv1"
+        app:layout_constraintTop_toTopOf="@id/tv1"
+        app:layout_constraintBottom_toBottomOf="@id/tv1"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvMemberName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quang Minh"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/ivAva"
+        app:layout_constraintTop_toTopOf="@id/ivAva"
+        app:layout_constraintBottom_toBottomOf="@id/ivAva"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:text="@string/state"/>
+<!--    <Spinner-->
+<!--        android:id="@+id/spState"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:background="@drawable/bg_border"-->
+<!--        android:padding="5dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvState"/>-->
+
+    <TextView
+        android:id="@+id/spState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvState"/>
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spState"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:text="Status"/>
+        <Spinner
+            android:id="@+id/spStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:background="@drawable/bg_border"
+            tools:listitem="@layout/layout_task"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvStatus"/>
+        <TextView
+            android:id="@+id/tvStartdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spStatus"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:text="Start date:"/>
+
+        <EditText
+            android:id="@+id/etStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@id/tvStartdate"
+            app:layout_constraintTop_toTopOf="@id/tvStartdate"
+            app:layout_constraintBottom_toBottomOf="@id/tvStartdate"/>
+
+        <TextView
+            android:id="@+id/tvEnddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvStartdate"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:text="End date:"/>
+
+        <EditText
+            android:id="@+id/etEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/etStartDate"
+            app:layout_constraintTop_toTopOf="@id/tvEnddate"
+            app:layout_constraintBottom_toBottomOf="@id/tvEnddate"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_border"
+            android:hint="@string/description"
+            android:textColorHint="@color/hint_color"
+            android:textColor="@color/text_color"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/tvEnddate" />
+
+        <Button
+            android:id="@+id/btCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:background="@color/gray"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:id="@+id/btDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:background="@color/red"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintTop_toTopOf="@id/btCancel"
+            app:layout_constraintEnd_toStartOf="@id/btCancel"/>
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:background="@color/secondary"
+            app:layout_constraintTop_toTopOf="@id/btCancel"
+            app:layout_constraintStart_toEndOf="@id/btCancel"
+            android:layout_marginStart="40dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

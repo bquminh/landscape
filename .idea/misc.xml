@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_border.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_button_delete.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_button_login.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_circle.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_dialog_account.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_edittext_description.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_grouptask.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_note.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_project.xml" value="0.1065" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_searchview.xml" value="0.1065" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_spinner.xml" value="0.133" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_state.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/bg_task.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/dialog_account.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_add_circle.xml" value="0.1065" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_arrow_right.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_check.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_hide_password.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_home.xml" value="0.1065" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_password.xml" value="0.1065" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_send.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_show_password.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/ic_warning.xml" value="0.128" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/layout_searchview.xml" value="0.1065" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/line.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/progress_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/drawable/text_tablayout.xml" value="0.1065" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/activity_login.xml" value="0.17282051282051283" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/activity_main.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/activity_project_detail.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_account.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_add_grouptask.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_add_task.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_change_password.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_confirm_delete.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_grouptask_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_note.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_profile.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_state_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_task_detail.xml" value="0.6" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/dialog_update_note.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_add_project.xml" value="0.22" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_create_account.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_create_new_password.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_project_detail.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_project_list.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_projects.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_projects_menu.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_reset_password.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/fragment_task_detail.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/frg_members.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/frg_overview.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/frg_projects.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/frg_tasks.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/frg_timeline.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_account.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_comment.xml" value="0.22" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_group_task.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_header_navigation.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_member.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_note.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_progress.xml" value="0.22" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_project.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_spstate.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_state.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/layout_task.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/project.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/project_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/layout/test.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/menu/menu_navigation.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Minh/AndroidStudioProjects/LandscapeDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1065" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

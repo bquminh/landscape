@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearTask"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_task"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="2dp"
+    android:padding="2dp"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_weight="8"
+        android:id="@+id/tvTaskname"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="test"
+        android:fontFamily="@font/latoregular"
+        android:paddingStart="10dp"
+        />
+
+    <ImageView
+        android:layout_weight="2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_profile"
+
+        android:layout_marginHorizontal="5dp"/>
+
+
+
+</LinearLayout>
